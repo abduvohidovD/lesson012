@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 559px;
+    background: url("./uy\ ishi\ 1.jpg") no-repeat center/cover;
+}
+.banner__shadow{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 2px 2%;
+}
+.navbar__collection{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.licolor{
+    color: orange;
+}
+.navbar__collection button{
+    color: orange;
+    border: 1px solid orange; 
+    border-radius: 3px;
+    background: none;
+}
+.content{
+    width: 50%;
+    padding-top: 100px;
+    margin: auto;
+    display: block;
+}
+.content h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.content h3{
+    color: grey;
+    padding: 20px 0;
+    text-align: center;
+}
+.btn{
+    padding: 10px 24px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    margin: auto;
+    display: block;
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 559px;
+    background: url("./for\ plus\ 2.png") no-repeat center/cover;
+    margin: auto;
+    display: block;
+
+}
+.banner__shadow{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.623);
+    padding: 4px 8%;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.navbar__collection{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.navbar__collection sub{
+    font-size: 15px;
+}
+.content{
+    width: 50%;
+    padding-top: 100px;
+}.content h1{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 70px;
+}
+.content p{
+    color: rgba(255, 255, 255, 0.295);
+    font-size: 15px;
+    padding-top: 20px;
+}
+.content button{
+    width: 100px;
+    height: 27px;
+    border: none;
+    background: red;
+    margin-top: 15px;
+    color: white;
+}
